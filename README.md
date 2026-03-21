@@ -1,4 +1,7 @@
-# Quais são as regras para aplicar no CSS?
+# MARKDOWN
+
+---
+## Quais são as regras para aplicar no CSS?
   - Como serão os nomes?
     - Padrão (Primário, Secundário, Terciário, etc..)
   - Vai usar alguma pattern CSS? Consulte na net sobre BEM CSS.
@@ -7,6 +10,9 @@
     - Hexadecimal
   - Será utilizado bootstrap ou css puro?
     - css puro
+  - Quais as unidades utilizadas?
+    - Texto: rem
+    - Divs: %
     
   - Será utilizado :root{ }?
     - Sim
@@ -28,4 +34,9 @@
     - Vai utiilzar layout fixo ou fluido? 
       - Fluído
     - Quais serão os breakpoints responsivos utilizados? O layout ficará responsivo somente na transição de tela entre mobile e desktop? ou vai abranger outro tamanho de tela?
-      - xl lg sm
+      - apenas mobile e desktop
+---
+# WireFrame para o desenvolvimento
+![Home Page](./wireframe/homePage.jpg)
+![Página de navegação](./wireframe/paginaNavegacao.jpg)
+![Exbição de cada monumento](./wireframe/modeloExibicaoMonumento.jpg)
