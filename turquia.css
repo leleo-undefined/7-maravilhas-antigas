@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.invertido {
+    flex-direction: row-reverse;
+}
+
+.info-monumento {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.descricao {
+    border: 2px dashed gray;
+    border-radius: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+
+.imagem-monumento {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.alinha {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagem1 {
+    background-image: url('./images/temploartemis.jpg');
+}
+
+.imagem2 {
+    background-image: url('./images/Mausoleum_at_Halicarnassus_by_Ferdinand_Knab_\(1886\)_cropped.png');
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .invertido {
+        flex-direction: column;
+    }
+
+    .imagem-monumento {
+        width: 100%;
+    }
+
+    .alinha {
+        height: 200px; 
+    }
+
+    .descricao {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 1rem;
+    }
+}
+
