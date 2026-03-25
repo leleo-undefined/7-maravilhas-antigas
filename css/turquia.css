@@ -1,7 +1,29 @@
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    margin: 0;
+}
+
+p {
+    color: var(--cor-texto);
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+:root{
+    --cor-fundo: #F2E2C4;
+    --cor-primaria: #BFA380; 
+    --cor-secundaria: #734226; 
+    --cor-destaque:  #8C5B30;
+    --cor-texto: #261F16;
 }
 
 .nav {
@@ -10,7 +32,7 @@
     align-items: center;
     padding: 0 20px;
     height: 60px;
-    background-color: red;
+    background-color: var(--cor-primaria);
 }
 
 .nav-links {
@@ -24,10 +46,14 @@
     display: flex;
     padding: 40px;
     gap: 40px;
+    width: 100%;
+    height: 100vh;
 }
 
 .invertido {
     flex-direction: row-reverse;
+    width: 100%;
+    height: 100vh;
 }
 
 .info-monumento {
@@ -35,6 +61,7 @@
     flex-direction: column;
     gap: 10px;
     flex: 1;
+    margin-top: 105px;
 }
 
 .descricao {
@@ -53,6 +80,7 @@
     flex: 1;
     display: flex;
     align-items: center;
+    margin-bottom: 140px;
 }
 
 .alinha {
@@ -111,4 +139,3 @@
         font-size: 1rem;
     }
 }
-
