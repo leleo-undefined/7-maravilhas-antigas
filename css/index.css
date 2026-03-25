@@ -148,3 +148,56 @@ section.oqSao .direita img {
     border-radius: 10px;
     border: 3px solid var(--cor-secundaria);
 }
+
+@media (max-width: 768px) {
+
+    section.principal {
+        justify-content: center;
+        text-align: center;
+        padding: 80px 20px 20px 20px;
+    }
+
+    section.principal p {
+        width: 90%;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    section.principal button {
+        width: 80%;
+        max-width: 250px;
+        margin: 20px auto 0 auto;
+    }
+
+    section.oqSao {
+        flex-direction: column;
+        min-height: auto;
+        padding-top: 100px;
+    }
+
+    section.oqSao .esquerda,
+    section.oqSao .direita {
+        width: 100%;
+        padding: 20px;
+    }
+
+    section.oqSao .esquerda h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    section.oqSao .esquerda {
+        text-indent: 0;
+        text-align: center;
+    }
+
+    section.oqSao .esquerda button {
+        width: 80%;
+        max-width: 250px;
+        margin: 20px auto 0 auto;
+    }
+
+    section.oqSao .direita img {
+        height: auto;
+    }
+}

@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'italiana';
+    src: url(./Italiana-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'italiana';
+}
+
+
+:root{
+    --cor-fundo: #F2E2C4;
+    --cor-primaria: #BFA380;
+    --cor-secundaria: #734226;
+    --cor-destaque:  #8C5B30;
+    --cor-texto: #261F16
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 600;
+    letter-spacing: 8%;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    background-color: var(--cor-primaria);
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: 'italiana';
+    src: url(./Italiana-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'italiana';
+}
+
+
+:root{
+    --cor-fundo: #F2E2C4;
+    --cor-primaria: #BFA380;
+    --cor-secundaria: #734226;
+    --cor-destaque:  #8C5B30;
+    --cor-texto: #261F16
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: 600;
+    letter-spacing: 8%;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--cor-texto);
+    font-weight: 500;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    background-color: var(--cor-primaria);
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+section.principal {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    height: 100vh;
+    width: 100%;
+    color: var(--cor-texto);
+}
+
+section.principal div{
+    height: 100%;
+    width: 25%;
+    padding-top: 70px;
+    border-right: 3px solid #734226;
+    display: flex;
+    justify-content: center;
+}
+
+section.principal .egito {
+    background-image: url(../images/piramide.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.principal .grecia{
+    background-image: url(../images/zeus.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.principal .iraque{
+    background-image: url(../images/babi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.principal .turquia{
+    background-image: url(../images/temploartemis.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+

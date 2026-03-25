@@ -140,17 +140,4 @@ a{
         text-align: center;
     }
 
-    .nav {
-        flex-direction: column;
-        height: auto;
-        padding: 10px;
-        gap: 10px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        font-size: 1rem;
-    }
 }
