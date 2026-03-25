@@ -56,8 +56,8 @@ p {
 
 section.principal {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:left;
+    align-items:center;
     height: 100vh;
     width: 100%;
     background-image: url(../images/fundoIndex.jpg);
@@ -69,8 +69,11 @@ section.principal {
 }
 
 section.principal p {
-    color: var(--cor-destaque);
-    text-wrap: 10px;
+    color: var(--cor-texto);
+    width: 40vw;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.400);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.400);
 }
 
 section.principal button{

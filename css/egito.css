@@ -82,20 +82,26 @@ a{
 .descricao {
     border: 2px dashed gray;
     border-radius: 10px;
-    height: 200px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     line-height: 1.6;
     font-size: 1.5rem;
+    margin-top: 2vh;
 }
 
 .imagem-monumento {
     flex: 1;
     display: flex;
-    align-items: center;
-    margin-bottom: 140px;
+}
+
+.imagem-monumento img {
+    max-width: 40vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .alinha {
@@ -105,15 +111,6 @@ a{
     background-size: cover;
     background-position: center;
 }
-
-.imagem1 {
-    background-image: url('../images/temploartemis.jpg');
-}
-
-.imagem2 {
-    background-image: url('../images/Mausoleum_at_Halicarnassus_by_Ferdinand_Knab_\(1886\)_cropped.png');
-}
-
 
 @media (max-width: 768px) {
 
