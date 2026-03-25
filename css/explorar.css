@@ -121,11 +121,18 @@ section.principal {
 
 section.principal div{
     height: 100%;
-    width: 25%;
+    width: 100%;
     padding-top: 70px;
     border-right: 3px solid #734226;
     display: flex;
     justify-content: center;
+}
+
+section.principal a{
+    text-decoration: none;
+    color: var(--cor-texto);
+    width: 25%;
+    height: 100%;
 }
 
 section.principal .egito {
