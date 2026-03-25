@@ -37,6 +37,17 @@
       - apenas mobile e desktop
 ---
 # WireFrame para o desenvolvimento
+
+root pra uso das cores:
+
+:root{
+    --cor-fundo: #F2E2C4; //background
+    --cor-primaria: #BFA380; //cabeçalho nessa cor
+    --cor-secundaria: #734226; //outlines
+    --cor-destaque:  #8C5B30; //títulos como h1 nessa cor
+    --cor-texto: #261F16 //texto nesssa cor
+}
+
 ![Home Page](./wireframe/homePage.jpg)
 ![Página de navegação](./wireframe/paginaNavegacao.jpg)
 ![Exbição de cada monumento](./wireframe/modeloExibicaoMonumento.jpg)
