@@ -64,11 +64,11 @@
 }
 
 .imagem1 {
-    background-image: url('./images/temploartemis.jpg');
+    background-image: url('../images/temploartemis.jpg');
 }
 
 .imagem2 {
-    background-image: url('./images/Mausoleum_at_Halicarnassus_by_Ferdinand_Knab_\(1886\)_cropped.png');
+    background-image: url('../images/Mausoleum_at_Halicarnassus_by_Ferdinand_Knab_\(1886\)_cropped.png');
 }
 
 
